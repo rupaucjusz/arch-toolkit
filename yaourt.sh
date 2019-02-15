@@ -6,3 +6,6 @@ makepkg -si && cd /tmp/
 git clone https://aur.archlinux.org/yaourt.git
 cd yaourt/
 makepkg -si
+clear
+echo "yaourt <package to search package>"
+echo "or yaourt -h to help (similar to pacman)"
